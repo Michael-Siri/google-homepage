@@ -36,12 +36,15 @@
 
 .body1{
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+    justify-content: end;
+    align-items: center;
+
     height: 17.5rem;
 }
 
 .body1 .img{
-    align-self: end;
+    /* align-self: end; */
 }
 
 .searchContainer{
